@@ -1,5 +1,7 @@
 # Slack Channel Summarizer
 
+Video explanation (In Spanish): https://www.youtube.com/watch?v=u92bbYySLNM
+
 This repository contains an implementation that allows users to obtain a summary of an entire Slack channel conversation by using the `/summarize` slash command. The implementation leverages OpenAI's API for text summarization and supports conversations of arbitrary length.
 
 ## How it Works
