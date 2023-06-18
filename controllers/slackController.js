@@ -14,6 +14,10 @@ slackRouter.post("/summarize", (request, response) => {
   response.json("Request received. Conversation summary in progress.");
 });
 
+slackRouter.get("/home", (request, response) => {
+  response.json("Hello from AWS!")
+});
+
 const getConversationSummary = async (payload) => {
   try {
     const slackConversation = await getConversationFromSlackChannel(
