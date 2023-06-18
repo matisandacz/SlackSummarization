@@ -36,7 +36,7 @@ const summarizeSlackConversation = async (slackConversation) => {
         if (slackConversationChunks.length > 1) {
 
             let payload = {
-                "systemMessage": "Consoloidate these conversation summaries:",
+                "systemMessage": "Consolidate these conversation summaries:",
                 "prompt": conversationChunkSummaries.join()
             }
 
